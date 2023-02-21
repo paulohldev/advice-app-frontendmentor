@@ -1,0 +1,38 @@
+:root {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--dark-blue);
+}
+
+.container {
+  display: flex;
+  min-width: 200px;
+  padding: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
