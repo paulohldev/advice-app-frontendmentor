@@ -10,7 +10,6 @@ const Card = () => {
       const data = await fetch('https://api.adviceslip.com/advice');
       const json = await data.json();
       setAdvice(json);
-      console.log(advice);
     } catch (err) {
       console.log(err);
     }
